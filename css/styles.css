@@ -67,10 +67,8 @@ a {
 
 .header-menu-link:hover,
 .header-menu-link:focus,
-.header-address-link:hover,
-.header-address-link:focus {
+.header-address-link:hover .header-address-link:focus {
   color: #404bbf;
-  background: #404bbf;
 }
 
 /* --------------------MAIN __--------------- */
@@ -96,6 +94,11 @@ a {
   font-family: inherit;
   background: #4d5ae5;
   cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #404bbf;
 }
 
 .features {
